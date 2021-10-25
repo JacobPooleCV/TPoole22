@@ -1,0 +1,4 @@
+To run the lab output, do the following:
+1. Right click a.out
+2. Click on "Open terminal here"
+3. Type "./a.out"
