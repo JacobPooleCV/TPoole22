@@ -20,10 +20,10 @@ int random(int r){
 	return rand()% r + 1;
 }
 
-void gotoxy(short x, short y) {
-	COORD pos = {x, y};
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
-	}
+void gotoxy(int x, int y)
+{
+    printf("%c[%d;%df", 0x1B, y, x);
+}
 
 //This makes a filled box
 void drawbox(int x, int y,int width, int height, char sym){
