@@ -1,4 +1,5 @@
 To run the lab output, do the following:
 1. Right click a.out
 2. Click on "Open terminal here"
-3. Type "./a.out"
+3. Type into the terminal "chmod 755 a.out" 
+4. Type "./a.out"
