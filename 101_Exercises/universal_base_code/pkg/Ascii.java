@@ -60,7 +60,7 @@ public class Ascii {
 	}
 
 	public void setType(String a){		// Sets variable type to input
-		type = a;
+		type = checkType(a);
 	}
 	public void setName(String a){		// Sets variable type to input
 		name = a;
