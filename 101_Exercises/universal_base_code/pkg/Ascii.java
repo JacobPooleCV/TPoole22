@@ -108,7 +108,10 @@ public class Ascii {
 				System.out.println("  cccC__Cccc___) ");
 			}
 			else if(type.equals("Dog")){
-
+				System.out.println("^..^      / ");
+				System.out.println("/_/\\_____/ ");
+				System.out.println("   /\\   /\\ ");
+				System.out.println("  /  \\ /  \\ ");
 			}
 			else if(type.equals("Cactus")){
 				System.out.println("  _  _ ");
