@@ -17,9 +17,25 @@ class starter {
         int lineNumber = 1;
         while(sc.hasNextLine()){		//Checks if there's a nextLine, breaks if none found.
             String line = sc.nextLine();
-            System.out.println("line " + lineNumber + " :" + line);
-            lineNumber++;
-        }      
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+        }      ;
 
 		
 	}
