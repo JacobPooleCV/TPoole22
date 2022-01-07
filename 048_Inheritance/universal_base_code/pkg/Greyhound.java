@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class Greyhound extends Dog{
 	public String name;
-	String breed;
+	String color;
 
 	public Greyhound() {
 		name = "Rapid Ranger";
-		breed = "Greyhound";
+		color = "grey";
 	}
 
 	public boolean isFast(){

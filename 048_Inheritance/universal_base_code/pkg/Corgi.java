@@ -3,12 +3,12 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Corgi extends Dog{
-	String breed;
 	public String name;
+	String color;
 
 	public Corgi() {
-		breed = "Corgi";
 		name = "Joey";
+		color = "golden";
 	}
 
 	public boolean hasSmallLegs(){
