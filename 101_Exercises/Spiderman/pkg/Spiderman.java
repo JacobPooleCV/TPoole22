@@ -9,17 +9,50 @@ public class Spiderman {
 	String villain;		// Who's the arch nemesis of this Spiderman
 
 	public Spiderman() {			// Default constructor!
-		actor = "Tobey Maguire";
-		age = 46;
-		villain = "Green Goblin";
+		this("Tobey Maguire", 46, "Green Goblin");
 	}
 	// Create constructors for each combination of actor/age/villain. Use the defaults above if not an input parameter.
-
-
+	public Spiderman(String actor) {			// String constructor!
+		this(actor, 46, "Green Goblin");
+	}
+	public Spiderman(int age) {			// int constructor!
+		this("Tobey Maguire", age, "Green Goblin");
+		fight();
+	}
+	public Spiderman(String actor, int age) {			// String, int constructor!
+		this(actor, age, "Green Goblin");
+	}
+	public Spiderman(String actor, int age, String villain) {			// String, int, String constructor!
+		this.actor = actor;
+		this.age = age;
+		this.villain = villain;
+		printArt();
+	}
 	
 	// ---------------------------------------
 	// Create accessor and mutator methods for actor, age, and villain (6 total methods)
+	public void setActor(String actor){
+		this.actor = actor;
+		return;
+	}
+	public void setAge(int age){
+		this.age = age;
+		return;
+	}
+	public void setVillain(String villain){
+		this.villain = villain;
+		return;
+	}
 
+	public String getActor(){
+		return actor;
+	}
+	public int getAge(){
+		return age;
+	}
+	public String getVillain(){
+		return villain;
+	}
 
 
 	public void fight(){
