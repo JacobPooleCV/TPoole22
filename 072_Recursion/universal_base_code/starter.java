@@ -1,14 +1,12 @@
 import pkg.*;
-import java.util.Scanner;
-import java.util.Random;
-
+import java.util.*;
 
 class starter {
+	public static void recurPower(int base, int n){
+
+	}	
+
 	public static void main(String args[]) {
-		// Your code goes below here
-		BaseClass test = new BaseClass();
-
-
 		
 	}
 }
